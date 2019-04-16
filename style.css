@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.player-0-panel,
+.player-1-panel {
+    width: 25%;
+    float: left;
+    height: 600px;
+    padding: 100px;
+}
+
+.canvas {
+    
+    margin-top: 100px;
+    width: 50%;
+    float: left;
+    height: 700px;
+}
